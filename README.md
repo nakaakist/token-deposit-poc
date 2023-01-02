@@ -1,13 +1,23 @@
-# Sample Hardhat Project
+# Token deposit
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+In this repo, I tried to implement a simple token deposit pool contract.
 
-Try running some of the following tasks:
+The following tokens can be deposited and withdrawn:
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.ts
-```
+- ERC20 token
+- ERC721 token
+- ERC1155 token
+- ETH
+
+The depositor can specify:
+
+- token kind (ERC20, ERC721, ...)
+- token contract address
+- withdrawer address (can be different from depositor)
+- token ID (for ERC721 and ERC1155)
+- amount (for ERC20 and ETH)
+
+## How to run
+
+1. `pnpm install` to install dependencies
+2. `pnpm test` to run tests
