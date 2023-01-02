@@ -2,7 +2,11 @@ lockfileVersion: 5.4
 
 specifiers:
   '@nomicfoundation/hardhat-toolbox': ^2.0.0
+  '@openzeppelin/contracts': ^4.8.0
   hardhat: ^2.12.5
+
+dependencies:
+  '@openzeppelin/contracts': 4.8.0
 
 devDependencies:
   '@nomicfoundation/hardhat-toolbox': 2.0.0_qkk7im6hq722gxbuzyccjwsroy
@@ -735,6 +739,10 @@ packages:
     transitivePeerDependencies:
       - supports-color
     dev: true
+
+  /@openzeppelin/contracts/4.8.0:
+    resolution: {integrity: sha512-AGuwhRRL+NaKx73WKRNzeCxOCOCxpaqF+kp8TJ89QzAipSwZy/NoflkWaL9bywXFRhIzXt8j38sfF7KBKCPWLw==}
+    dev: false
 
   /@scure/base/1.1.1:
     resolution: {integrity: sha512-ZxOhsSyxYwLJj3pLZCefNitxsj093tb2vq90mp2txoYeBqbcjDjqFhyM8eUjq/uFm6zJ+mUuqxlS2FkuSY1MTA==}
